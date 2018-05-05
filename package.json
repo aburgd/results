@@ -1,0 +1,29 @@
+{
+  "name": "results",
+  "version": "0.1.0",
+  "description": "boolean testing for humans",
+  "main": "src/cli.js",
+  "homepage": "http://github.com/aburgd/results",
+  "bugs": "https://github.com/aburgd/results/issues",
+  "repository": {
+    "url": "https://github.com/aburgd/results.git",
+    "type": "git"
+  },
+  "author": "Alec Burgdorf <aeburgd@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.46",
+    "@babel/preset-env": "^7.0.0-beta.46",
+    "@babel/preset-flow": "^7.0.0-beta.46",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.3",
+    "eslint-plugin-flowtype": "^2.46.3",
+    "flow-bin": "^0.71.0",
+    "standard": "^11.0.1"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "plugins": "flowtype"
+  }
+}
