@@ -2,7 +2,7 @@
   "presets": [
     "@babel/flow",
     [
-      "@babel/preset-env", {
+      "@babel/env", {
         "targets": {
           "node": "current"
         }
