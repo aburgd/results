@@ -2,7 +2,7 @@
   "name": "@aburgd/results",
   "version": "0.1.3",
   "description": "boolean testing for humans",
-  "main": "src/cli.js",
+  "main": "lib/cli.js",
   "homepage": "http://github.com/aburgd/results",
   "bugs": "https://github.com/aburgd/results/issues",
   "repository": {
