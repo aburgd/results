@@ -1,5 +1,5 @@
 // @flow
-type state = {
+export type state = {
   message: string,
   bool: boolean
 }
