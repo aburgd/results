@@ -4,13 +4,12 @@ export type state = {
   bool: boolean
 }
 
-export function results (title: string, ...statements: Array<state>) {
+// noinspection JSUnusedGlobalSymbols
+export default function (title: string, ...statements: Array<state>) {
   console.log(title.toUpperCase())
   const titleLength: number = title.length
   let div: string = ''
-  for (let i = 0; i <= titleLength; i++) {
-    div += '='
-  }
+  for (let i = 0; i <= titleLength; i++) div += '='
   console.log(div)
   statements.forEach((statement: state) => {
     let message: string = statement.message
